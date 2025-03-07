@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>home on My Blog</title>
+    <link>https://Chen-Hung-Chi.github.io/</link>
+    <description>Recent content in home on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 06 Mar 2025 23:02:53 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://Chen-Hung-Chi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>http://localhost:1313/post/first-post/</link>
+      <title>About Me</title>
+      <link>https://Chen-Hung-Chi.github.io/post/first-post/</link>
       <pubDate>Thu, 06 Mar 2025 23:02:53 -0500</pubDate>
-      <guid>http://localhost:1313/post/first-post/</guid>
-      <description>&lt;h1 id=&#34;self-introduce&#34;&gt;Self Introduce&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Hi, I’m Hung-Chi, originally from Taiwan. I recently moved to Toronto and have over three years of experience as a back-end developer, primarily working with Java. My expertise is in API development, and I’m excited about the opportunity to contribute my skills to a new team here in Canada.&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <guid>https://Chen-Hung-Chi.github.io/post/first-post/</guid>
+      <description>Introducing myself as a Java back-end developer ready to join a great team in Canada.</description>
     </item>
   </channel>
 </rss>

@@ -2,17 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/first-post/</loc>
+    <loc>https://Chen-Hung-Chi.github.io/post/first-post/</loc>
     <lastmod>2025-03-06T23:02:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://Chen-Hung-Chi.github.io/</loc>
+    <lastmod>2025-03-07T10:02:51-05:00</lastmod>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/tags/introduce/</loc>
     <lastmod>2025-03-06T23:02:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://Chen-Hung-Chi.github.io/tags/java-developer/</loc>
     <lastmod>2025-03-06T23:02:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://Chen-Hung-Chi.github.io/tags/job-search/</loc>
+    <lastmod>2025-03-06T23:02:53-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://Chen-Hung-Chi.github.io/post/</loc>
+    <lastmod>2025-03-06T23:02:53-05:00</lastmod>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/tags/software-developer/</loc>
+    <lastmod>2025-03-06T23:02:53-05:00</lastmod>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/tags/</loc>
+    <lastmod>2025-03-06T23:02:53-05:00</lastmod>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/tags/toronto/</loc>
+    <lastmod>2025-03-06T23:02:53-05:00</lastmod>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/archives/</loc>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/categories/</loc>
+  </url><url>
+    <loc>https://Chen-Hung-Chi.github.io/search/</loc>
   </url>
 </urlset>
