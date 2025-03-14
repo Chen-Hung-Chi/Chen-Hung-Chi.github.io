@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://Chen-Hung-Chi.github.io/tags/java-developer/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.45e028aa8ce0961349adf411b013ee39406be2c0bc80d4ea3fc04555f7f4611a.css" integrity="sha256-ReAoqozglhNJrfQRsBPuOUBr4sC8gNTqP8BFVff0YRo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://Chen-Hung-Chi.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://Chen-Hung-Chi.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://Chen-Hung-Chi.github.io/favicon-32x32.png">
@@ -45,7 +45,7 @@
       </script><meta property="og:url" content="https://Chen-Hung-Chi.github.io/tags/java-developer/">
   <meta property="og:site_name" content="My Blog">
   <meta property="og:title" content="Java Developer">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java Developer">
@@ -54,28 +54,54 @@
 </head>
 
 <body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    }
+
+</script>
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://Chen-Hung-Chi.github.io/" accesskey="h" title="My Blog (Alt + H)">My Blog</a>
             <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
             </div>
         </div>
         <ul id="menu">
-            <li>
-                <a href="https://Chen-Hung-Chi.github.io/archives/" title="Archive">
-                    <span>Archive</span>
-                </a>
-            </li>
             <li>
                 <a href="https://Chen-Hung-Chi.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://Chen-Hung-Chi.github.io/tags/" title="Tags">
-                    <span>Tags</span>
+                <a href="https://Chen-Hung-Chi.github.io/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://Chen-Hung-Chi.github.io/categories/" title="Categories">
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
@@ -85,6 +111,14 @@
 <header class="page-header"><div class="breadcrumbs"><a href="https://Chen-Hung-Chi.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://Chen-Hung-Chi.github.io/tags/">Tags</a></div>
   <h1>
     Java Developer
+    <a href="/tags/java-developer/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
   </h1>
 </header>
 
@@ -94,12 +128,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Hung-Chi Hi, I’m Hung-Chi! Originally from Taiwan, I’ve recently relocated to Toronto and am eager to start my professional journey here in Canada. With over three years of experience as a back-end developer specializing in Java, I’ve developed extensive expertise in building and optimizing APIs, managing databases, and integrating third-party services.
-I’m currently seeking opportunities to contribute my skills, collaborate with passionate teams, and continue growing as a developer. If you’re looking for a dedicated and experienced Java engineer, I’d love to connect!
-...</p>
+    <p>Introducing myself as a Java back-end developer.</p>
   </div>
   <footer class="entry-footer"><span title='2025-03-06 23:02:53 -0500 EST'>March 6, 2025</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to About Me" href="https://Chen-Hung-Chi.github.io/post/first-post/"></a>
+  <a class="entry-link" aria-label="post link to About Me" href="https://Chen-Hung-Chi.github.io/post/about-me/"></a>
 </article>
     </main>
     
@@ -158,6 +190,18 @@ I’m currently seeking opportunities to contribute my skills, collaborate with 
             mybutton.style.opacity = "0";
         }
     };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
 </script>
 </body>
