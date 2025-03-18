@@ -6,7 +6,7 @@
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Mar 2025 21:02:35 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 00:42:20 -0400</lastBuildDate>
     <atom:link href="https://Chen-Hung-Chi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
@@ -17,10 +17,17 @@
     </item>
     <item>
       <title>My Interview Journey in Toronto</title>
-      <link>https://Chen-Hung-Chi.github.io/post/interview/</link>
+      <link>https://Chen-Hung-Chi.github.io/post/my-interview-journey-in-toronto/</link>
       <pubDate>Fri, 07 Mar 2025 21:02:35 -0500</pubDate>
-      <guid>https://Chen-Hung-Chi.github.io/post/interview/</guid>
+      <guid>https://Chen-Hung-Chi.github.io/post/my-interview-journey-in-toronto/</guid>
       <description>I’m currently job hunting in Toronto and excited to share my ongoing interview experience with Affirm. Here’s a look at my process so far, including key moments and the steps ahead.</description>
+    </item>
+    <item>
+      <title>My First Month in UofT</title>
+      <link>https://Chen-Hung-Chi.github.io/post/my-first-month-in-toronto/</link>
+      <pubDate>Sat, 15 Mar 2025 00:42:20 -0400</pubDate>
+      <guid>https://Chen-Hung-Chi.github.io/post/my-first-month-in-toronto/</guid>
+      <description>Discover how UofT School of Continuing Studies’ English for Effective Communication course helped a newcomer adapt to Toronto, make friends, and enjoy student benefits. Read my experience and reflections!</description>
     </item>
   </channel>
 </rss>

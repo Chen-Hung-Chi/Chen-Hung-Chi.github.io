@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Life on My Blog</title>
+    <link>https://Chen-Hung-Chi.github.io/categories/life/</link>
+    <description>Recent content in Life on My Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Mar 2025 00:42:20 -0400</lastBuildDate>
+    <atom:link href="https://Chen-Hung-Chi.github.io/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Month in UofT</title>
+      <link>https://Chen-Hung-Chi.github.io/post/my-first-month-in-toronto/</link>
+      <pubDate>Sat, 15 Mar 2025 00:42:20 -0400</pubDate>
+      <guid>https://Chen-Hung-Chi.github.io/post/my-first-month-in-toronto/</guid>
+      <description>Discover how UofT School of Continuing Studies’ English for Effective Communication course helped a newcomer adapt to Toronto, make friends, and enjoy student benefits. Read my experience and reflections!</description>
+    </item>
+  </channel>
+</rss>
