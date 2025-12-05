@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="auto" data-theme="light">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="https://chen-hung-chi.github.io/tags/software-developer/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://chen-hung-chi.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://chen-hung-chi.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://chen-hung-chi.github.io/favicon-32x32.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://chen-hung-chi.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://chen-hung-chi.github.io/tags/software-developer/index.xml">
+<link rel="alternate" type="application/rss+xml" href="https://chen-hung-chi.github.io/tags/software-developer/index.xml" title="rss">
 <link rel="alternate" hreflang="en" href="https://chen-hung-chi.github.io/tags/software-developer/">
 <noscript>
     <style>
@@ -29,6 +29,12 @@
 
     </style>
 </noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-19317CJKFM"></script>
       <script>
         var doNotTrack = false;
@@ -52,16 +58,8 @@
 <meta name="twitter:description" content="">
 
 </head>
-
 <body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
+    <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://chen-hung-chi.github.io/" accesskey="h" title="Taiwanese Tech in TO (Alt + H)">Taiwanese Tech in TO</a>
@@ -130,7 +128,7 @@
   <div class="entry-content">
     <p>Introducing myself as a Java back-end developer.</p>
   </div>
-  <footer class="entry-footer"><span title='2025-03-06 23:02:53 -0500 EST'>March 6, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <footer class="entry-footer"><span title='2025-03-06 23:02:53 -0500 -0500'>March 6, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
   <a class="entry-link" aria-label="post link to About Me" href="https://chen-hung-chi.github.io/post/about-me/"></a>
 </article>
 
@@ -142,7 +140,7 @@
   <div class="entry-content">
     <p>My Toronto job hunt: Interview struggles and exciting start.</p>
   </div>
-  <footer class="entry-footer"><span title='2025-03-07 21:02:35 -0500 EST'>March 7, 2025</span>&nbsp;·&nbsp;4 min</footer>
+  <footer class="entry-footer"><span title='2025-03-07 21:02:35 -0500 -0500'>March 7, 2025</span>&nbsp;·&nbsp;<span>4 min</span></footer>
   <a class="entry-link" aria-label="post link to My Interview Journey in Toronto" href="https://chen-hung-chi.github.io/post/my-interview-journey-in-toronto/"></a>
 </article>
     </main>
@@ -163,9 +161,14 @@
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -206,11 +209,12 @@
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
